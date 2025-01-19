@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>ホーム / 新やあ鯖</title>
+</head>
+<style>
+  body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    z-index: 999;
+  }
+  .title {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .menu-item a {
+    color: black;
+  }
+  .main-top{
+    position: relative;
+  }
+  .main-top-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+    line-height: 10px;
+    color: white;
+  }
+  .main-top img{
+    width:100%;
+  }
+  article{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  article p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  hr {
+    margin: 0 10px;
+  }
+  .site-footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: gray;
+  }
+  .site-footer-text{
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+  }
+</style>
+<body>
+<header>
+  <h1 class="title">新やあ鯖</h1>
+  <nav class="nav">
+    <ul class="menu-group">
+      <li class="menu-item"><a href="/">ホーム</a></li>
+      <li class="menu-item"><a href="/join/">参加方法</a></li>
+      <li class="menu-item"><a href="/rules/">ルール</a></li>
+      <li class="menu-item"><a href="https://map.wayokan.com/">マップ</a></li>
+      <li class="menu-item"><a href="/others/">その他</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="main-top">
+    <img alt="home-img" src="../static/images/home.png">
+    <div class="main-top-text">
+      <p><strong>新やあ鯖へ</strong></p>
+      <p tag="welcome"><strong>ようこそ！</strong></p>
+    </div>
+  </div>
+  <div class="main-dis">
+    <article>
+      <h1>サーバーの概要</h1>
+      <p>このサーバーはバニラサバイバルになっており、基本的にPvPやレイドはなく誰もが自分のペースで進められるようなサーバーを目指しています。</p>
+      <p>現世やネザーはキープインベントリが有効になっています。ただしエンドはバランス調整のためキープインベントリをオフにしています。</p>
+    </article>
+    <hr>
+    <article>
+      <h1>参加方法</h1>
+      <p>Java版(1.20.1推奨)　サーバーアドレス : <strong>game.ssnetwork.io:41668</strong></p>
+      <p>統合版 アドレス : <strong>18.ip.gl.ply.gg</strong> ポート : <strong>4892</strong></p>
+      <p>Discordサーバー : <strong><a href="https://discord.gg/KXvEzpKkyK">https://discord.gg/KXvEzpKkyK</a></strong></p>
+      <footer><h3>詳細-><a href="join.html">おまんくす</a></h3></footer>
+    </article>
+    <hr>
+    <article>
+      <h1>ルール</h1>
+      <p>基本的なルール</p>
+      <p>・荒らし行為はなし(TNTやマグマなどの不適切使用など)</p>
+      <p>・チートの使用禁止
+      <p>・ヘイトスピーチや名誉棄損を目的とした発言</p>
+      <p>・保護化されてる家への不法侵入、保護化されたチェストの不正使用</p>
+      <footer><h3>詳細-><a href="rules.html">おまんくす</a></h3></footer>
+    </article>
+    <hr>
+    <article>
+      <h1>マップ</h1>
+      <p>ウェブサイト上でマップが確認できます。</p>
+      <footer><h3>サイト-><a href="https://map.wayokan.com/">おまんくす</a></h3></footer>
+    </article>
+    <hr>
+    <article>
+      <h1>その他</h1>
+      <p>いろいろと追加予定です</p>
+      <footer><h3>詳細-><a href="#">おまんくす</a></h3></footer>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="site-footer-text">
+    <h2>新やあ鯖</h2>
+    <p>&copy; 2025 yaasa_Linux</p>
+  </div>
+</footer>
+</body>
+</html>
