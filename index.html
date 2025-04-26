@@ -1,131 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="images/favicon.ico">
-  <title>ホーム / 新やあ鯖</title>
-</head>
-<style>
-  body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
-  header {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    z-index: 999;
-  }
-  .title {
-    margin-left: 20px;
-    margin-right: auto;
-    font-size: 25px;
-  }
-  .menu-item {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-  }
-  .menu-item a {
-    color: black;
-  }
-  .main-top{
-    position: relative;
-  }
-  .main-top-text{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    font-size: 50px;
-    line-height: 10px;
-    color: white;
-  }
-  .main-top img{
-    width:100%;
-  }
-  .site-footer{
-    width: 100%;
-    padding: 20px 0;
-    background-color: gray;
-  }
-  .site-footer-text{
-    text-align: left;
-    margin-left: 10px;
-    color: white;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新やあ鯖 | ホーム</title>
+    <link rel="stylesheet" href="css/main.css">
 <body>
-<header>
-  <p class="title">新やあ鯖</p>
-  <nav class="nav">
-    <ul class="menu-group">
-      <li class="menu-item"><a href="index.html">ホーム</a></li>
-      <li class="menu-item"><a href="join.html">参加方法</a></li>
-      <li class="menu-item"><a href="rules.html">ルール</a></li>
-      <li class="menu-item"><a href="https://map.wayokan.com/">マップ</a></li>
-      <li class="menu-item"><a href="others.html">その他</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <div class="main-top">
-    <img alt="home-img" src="images/home.png">
-    <div class="main-top-text">
-      <p><strong>新やあ鯖へ</strong></p>
-      <p tag="welcome"><strong>ようこそ！</strong></p>
-    </div>
-  </div>
-  <div class="main-dis">
-    <article>
-      <h1>サーバーの概要</h1>
-      <p>このサーバーはバニラサバイバルになっており、基本的にPvPやレイドはなく誰もが自分のペースで進められるようなサーバーを目指しています。</p>
-      <p>現世やネザーはキープインベントリが有効になっています。ただしエンドはバランス調整のためキープインベントリをオフにしています。</p>
-    </article>
-    <hr>
-    <article>
-      <h1>参加方法</h1>
-      <p>Java版(1.20.1推奨)　サーバーアドレス : <strong>game.ssnetwork.io:54101</strong></p>
-      <p>統合版 アドレス : <strong>18.ip.gl.ply.gg</strong> ポート : <strong>4892</strong></p>
-      <p>Discordサーバー : <strong><a href="https://discord.gg/KXvEzpKkyK">https://discord.gg/KXvEzpKkyK</a></strong></p>
-      <footer><h3>詳細-><a href="../templates/join.html">おまんくす</a></h3></footer>
-    </article>
-    <hr>
-    <article>
-      <h1>ルール</h1>
-      <p>基本的なルール</p>
-      <p>・荒らし行為はなし(TNTやマグマなどの不適切使用など)</p>
-      <p>・チートの使用禁止
-      <p>・ヘイトスピーチや名誉棄損を目的とした発言</p>
-      <p>・保護化されてる家への不法侵入、保護化されたチェストの不正使用</p>
-      <p>・埋め立てや整地は許可を取ってからやりましょう</p>
-      <footer><h3>詳細-><a href="../templates/rules.html">おまんくす</a></h3></footer>
-    </article>
-    <hr>
-    <article>
-      <h1>マップ</h1>
-      <p>ウェブサイト上でマップが確認できます。</p>
-      <footer><h3>サイト-><a href="https://map.wayokan.com/">おまんくす</a></h3></footer>
-    </article>
-    <hr>
-    <article>
-      <h1>その他</h1>
-      <p>いろいろと追加予定です</p>
-      <footer><h3>詳細-><a href="#">おまんくす</a></h3></footer>
-    </article>
-  </div>
-</main>
-<footer class="site-footer">
-  <div class="site-footer-text">
-    <h2>新やあ鯖</h2>
-    <p>&copy; 2025 yaasa_Linux</p>
-  </div>
-</footer>
+    <main>
+        <div class="background-container">
+            <img src="images/image.png" alt="背景画像" class="background-image">
+            <div class="text-overlay">
+                <p class="text-overlay-title">新やあ鯖へようこそ！</p>
+                <p class="text-overlay-description">このサイトは新やあ鯖に関してのWebサイトです。<br>基本的なことはここに全部書いてあります。</p>
+            </div>
+            <div class="button-container">
+                <button class="wiki-button">Wiki(準備中)</button>
+                <button class="participation-button" onclick="location.href='#server-address'">参加</button>
+            </div>
+        </div>
+        <div class="content-container" id="server-address">
+            <p>新やあ鯖はサバイバルを軸に運営しています！</p>
+            <p class="server-address"><strong>推奨サーバーアドレス : </strong>game.ssnetwork.io:40100 <button id="copyButton1">コピー</button><br><strong>予備用サーバーアドレス : </strong>25.ip.gl.ply.gg:43340 <button id="copyButton2">コピー</button><br><strong>推奨バージョン : </strong>1.20.1 (ViaVersionが入っているため1.20.1以上ならできると思います)</p>
+            <p>Minecraft Java Editionでのみ参加可能です。統合版での参加希望の方は<a href="#">こちら(未完成)</a></p>
+        </div>
+        <div class="content-container">
+            <h2>各種リンク</h2>
+            <p><strong>公式ホームページ(このサイト): </strong><a href="https://minecraft.wayokan.com/">https://minecraft.wayokan.com/</a><br><strong>公式Dynmap: </strong><a href="https://map.wayokan.com/" target="_blank">https://map.wayokan.com/</a><br><strong>公式Discord: </strong><a href="https://discord.gg/KXvEzpKkyK" target="_blank">Discord(モ神教)</a><br><strong>管理人Twitter: </strong><a href="https://x.com/wayokan_beta" target="_blank">@wayokan_beta</a><br>非公式ホームページ(制作者: <a href="https://x.com/xtzi9859" target="_blank">NAO</a>): <a href="https://minecraft.xtzi9859.f5.si/" target="_blank">https://minecraft.xtzi9859.f5.si/</a></p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-files">
+                <p>New Wayokan's Minecraft server</p>
+                <a href="index.html">Home</a>
+                <a href="">Join(準備中)</a>
+                <a href="">Rules(準備中)</a>
+                <a href="https://map.wayokan.com/" target="_blank">Map</a>
+                <a href="">Other(準備中)</a>
+            </div>
+            <div class="footer-links">
+                <p>Contact</p>
+                <a href="https://x.com/wayokan_beta" target="_blank">Twitter</a>
+                <a href="https://discord.gg/KXvEzpKkyK" target="_blank">Discord</a>
+                <a href="https://github.com/midorin-Linux" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 やあさ | このサイトは新やあ鯖の公式サイトです。</p>
+        </div>
+    </footer>
+    <script src="scipts/main.js"></script>
 </body>
 </html>
