@@ -68,3 +68,26 @@ if (copyButton4) {
 }else {
     console.error('コピーボタン4が見つかりませんでした。');
 }
+
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("img01");
+var closeBtn = document.getElementsByClassName("close")[0];
+var smallImgs = document.querySelectorAll(".small-image");
+modal.style.display = "none";
+
+smallImgs.forEach(function(img) {
+  img.onclick = function() {
+    modal.style.display = "flex";
+    modalImg.src = this.dataset.largeSrc;
+  }
+});
+
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
