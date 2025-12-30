@@ -26,6 +26,11 @@ export default function Home() {
                             <div className="mt-1 flex text-center">
                                 <p className="text-lg">サーバーアドレス: ms.wayokan.com</p>
                             </div>
+                            <Separator className="my-2" />
+                            <p className="text-lg font-semibold scroll-m-20 mt-2">統合版</p>
+                            <div className="mt-1 flex text-center">
+                                <p className="text-lg">現在サポートされていませんが近日サポートします</p>
+                            </div>
                         </div>
                     </div>
                     <div className="rounded border bg-white p-4 text-sm mt-2">
