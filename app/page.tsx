@@ -41,6 +41,7 @@ export default function Home() {
                                     <span className="text-lg font-semibold flex items-center gap-2 text-neutral-800"><Monitor className="w-4 h-4" /> Java版</span>
                                     <span className="text-xs font-mono bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100">Java</span>
                                 </div>
+                                <p className="leading-7 not-first:mt-6 items-center">Address:</p>
                                 <div className="mt-2 bg-neutral-100 rounded p-2 text-center border border-neutral-200">
                                     <p className="text-lg font-mono text-neutral-800">mc.wayokan.com</p>
                                 </div>
@@ -50,8 +51,13 @@ export default function Home() {
                                     <span className="text-lg font-semibold flex items-center gap-2 text-neutral-800"><Gamepad2 className="w-4 h-4" /> 統合版</span>
                                     <span className="text-xs font-mono bg-green-50 text-green-600 px-2 py-0.5 rounded border border-green-100">BE</span>
                                 </div>
+                                <p className="leading-7 not-first:mt-6 items-center">Address:</p>
                                 <div className="mt-2 bg-neutral-50 rounded p-2 text-center border border-neutral-100 h-[46px] flex items-center justify-center">
-                                    <p className="text-sm text-neutral-400">近日サポート予定</p>
+                                    <p className="text-lg font-mono text-neutral-800">mc.suwako.me</p>
+                                </div>
+                                <p className="leading-7 not-first:mt-6 items-center">Port:</p>
+                                <div className="mt-2 bg-neutral-50 rounded p-2 text-center border border-neutral-100 h-[46px] flex items-center justify-center">
+                                    <p className="text-lg font-mono text-neutral-800">42421</p>
                                 </div>
                             </div>
                         </div>
