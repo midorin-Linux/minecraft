@@ -57,7 +57,7 @@ export default function Home() {
                                 </div>
                                 <p className="leading-7 not-first:mt-6 items-center">Port:</p>
                                 <div className="mt-2 bg-neutral-50 rounded p-2 text-center border border-neutral-100 h-[46px] flex items-center justify-center">
-                                    <p className="text-lg font-mono text-neutral-800">42421</p>
+                                    <p className="text-lg font-mono text-neutral-800">1028</p>
                                 </div>
                             </div>
                         </div>
