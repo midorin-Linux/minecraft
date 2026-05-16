@@ -43,7 +43,7 @@ export default function Home() {
                                 </div>
                                 <p className="leading-7 not-first:mt-6 items-center">Address:</p>
                                 <div className="mt-2 bg-neutral-100 rounded p-2 text-center border border-neutral-200">
-                                    <p className="text-lg font-mono text-neutral-800">mc.wayokan.com</p>
+                                    <p className="text-lg font-mono text-neutral-800">faq-toshiba.gl.joinmc.link</p>
                                 </div>
                             </div>
                             <div className="rounded-xl border border-neutral-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-neutral-300">
@@ -53,7 +53,7 @@ export default function Home() {
                                 </div>
                                 <p className="leading-7 not-first:mt-6 items-center">Address:</p>
                                 <div className="mt-2 bg-neutral-50 rounded p-2 text-center border border-neutral-100 h-[46px] flex items-center justify-center">
-                                    <p className="text-lg font-mono text-neutral-800">mc.suwako.me</p>
+                                    <p className="text-lg font-mono text-neutral-800">faq-toshiba.gl.at.ply.gg</p>
                                 </div>
                                 <p className="leading-7 not-first:mt-6 items-center">Port:</p>
                                 <div className="mt-2 bg-neutral-50 rounded p-2 text-center border border-neutral-100 h-[46px] flex items-center justify-center">
